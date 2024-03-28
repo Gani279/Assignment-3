@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Side-by-Side Images</title>
+<style>
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; /* Adjust the gap between images as needed */
+    }
+    .image-container img {
+        max-width: 100px; /* Adjust the maximum width of images as needed */
+        height: auto;
+    }
+</style>
+</head>
+<body>
+<div class="photos">
+    <h3>{{photosTitle}}</h3>
+<div class="image-container">
+    <img src="{{image1}}" alt="Oops! Missing photo!">
+    <img src="{{image2}}" alt="Oops! Missing photo!">
+</div>
+
+<div class="image-container">
+    <img src="{{image3}}" alt="Oops! Missing photo!">
+</div>
+</div>
+</body>
+</html>

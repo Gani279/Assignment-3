@@ -1,0 +1,12 @@
+.movies {
+    text-align: center; 
+}
+
+.movies ol {
+    display: inline-block; 
+    text-align: left; 
+    color: purple;
+}
+h3{
+    color: red;
+}
